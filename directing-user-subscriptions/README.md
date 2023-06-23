@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="../images/paid-user-acquisition.png" width="475" alt="Directing"/>
+  <img src="../images/paid-user-acquisition.png" width="500" alt="Directing"/>
 
 # Directing User Subscriptions
 
