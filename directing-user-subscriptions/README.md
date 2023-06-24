@@ -1,10 +1,16 @@
 <div align="center">
 
-  <img src="../images/paid-user-acquisition.png" width="500" alt="Directing"/>
+  <img src="../images/paid-user-acquisition.png" width="550" alt="Directing"/>
 
 # Directing User Subscriptions
 
 ### Directing Users to Subscription Products via App Behavior Analysis
+
+[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/docs/getting_started/index.html)
+[![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/doc/stable/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
 
 </div>
 
@@ -29,3 +35,9 @@ In today's market, many companies have a mobile presence. Often, companies provi
 - User App Behavior data. This data allows us to see the date & time of application installation, as well as the features the user engaged with within the app. App behavior is characterized as the list of app screens the user engaged with, and whether the user played the mini-finacial games available.
 
 - App usage data is only from the user's first 24 hours with the app. This limitation exists because users are restricted to a 24-hour free trial period of access to premium features, and the company wants to target unsubscribed users with new offers shortly after the trial completes.
+
+---
+
+## Source Code
+ - ### [EDA (Exploratory Data Analysis) and Feature Engineering](notebooks/directing-user-subscriptions_eda.ipynb)
+ - ### [Data Pre-processing and ML Model Training](notebooks/directing-user-subscriptions_model.ipynb)
