@@ -39,5 +39,6 @@ In today's market, many companies have a mobile presence. Often, companies provi
 ---
 
 ## Source Code
- - ### [EDA (Exploratory Data Analysis) and Feature Engineering](notebooks/directing-user-subscriptions_eda.ipynb)
- - ### [Data Pre-processing and ML Model Training](notebooks/directing-user-subscriptions_model.ipynb)
+
+- ### [EDA (Exploratory Data Analysis) and Feature Engineering](notebooks/directing-user-subscriptions_eda.ipynb)
+- ### [Data Pre-processing and ML Model Building](notebooks/directing-user-subscriptions_model.ipynb)
