@@ -42,3 +42,10 @@ In today's market, many companies have a mobile presence. Often, companies provi
 
 - ### [EDA (Exploratory Data Analysis) and Feature Engineering](notebooks/directing-user-subscriptions_eda.ipynb)
 - ### [Data Pre-processing and ML Model Building](notebooks/directing-user-subscriptions_model.ipynb)
+
+---
+
+## Results 
+
+- Our efforts have produced a model that identifies users as "highly likely" or "unlikely" to enroll in paid subscriptions based upon their first 24-hours of interaction with the application. This data enables the company to target users unlikely to enroll in paid subscriptions immediately upon free trial completion. These results can be further validated by comparing model predictions to daily new installs. The increase in overall subscriptions can measure the benefit of this model to the company. ❤️ 🤖
+- ### [Data](data/results/) 
