@@ -17,3 +17,11 @@ A collection of machine learning use cases in fintech
 Directing Users to Subscription Products via App Behavior Analysis
 
 <img src="./images/convert-users.png" width="450" alt="Directing"/>
+
+<br/>
+
+### Case 2: [Predicting Loan E-Signatures](./predicting-loan-signatures/README.md)
+
+Predicting E-Signatures on Loans via Financial History
+
+<img src="./images/predicting-loan-e-sign.png" width="325" alt="Directing"/>
