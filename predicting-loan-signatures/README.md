@@ -26,7 +26,7 @@ Lending companies work by analyzing the financial history of their loan applican
 
 ## Business Challenge
 
-- In this case study, we will be working for a fintech company that specializes in loans. It offers low APR loans to applicants based on their financial habits, as most lenders do. This company has partnered with a P2P lending marketplace that provides real-time leads (loan applicants). The conversion rates for these leads are satisfactory.
+- We will be working for a fintech company that specializes in loans. It offers low APR loans to applicants based on their financial habits, as most lenders do. This company has partnered with a P2P lending marketplace that provides real-time leads (loan applicants). The conversion rates for these leads are satisfactory.
 
 - The company tasks you with creating a model that predicts whether or not these leads will complete the electronic signature phase of the loan application. The company seeks to leverage this model to identify less 'quality' applicants (those not responding to the onboarding process) and experiment with directing them to different onboarding screens.
 
@@ -38,6 +38,6 @@ Lending companies work by analyzing the financial history of their loan applican
 
 ## Data
 
-- Because users arrive through a marketplace, we have access to their financial data before the onboarding process begins. This data includes personal information such as age, income, time employed, debt and other financial metrics. Our company utilizes these financial data points to create risk scores based on a variety of factors.
+- Because users arrive through a marketplace, we have access to their financial data before the onboarding process begins. This data includes personal information regarding age, income, time employed, debt and other financial metrics. Our company utilizes these financial data points to create risk scores based on a variety of factors.
 
-- In this case study, we are given a set of scores from algorithms built by the finance and engineering teams. Furthermore, the marketplace itself provides us with their own lead quality scores. Here we will leverage both sets of scores, as well as a small list of personal/financial features to predict if the user is likely to respond to the current onboarding process.
+- We have been provided with a set of scores from algorithms built by the finance and engineering teams. Furthermore, the marketplace itself provides us with their own lead quality scores. Here we will leverage both sets of scores, as well as a small list of personal/financial features to predict if the user is likely to respond to the current onboarding process.
