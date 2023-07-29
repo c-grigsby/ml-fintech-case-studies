@@ -41,3 +41,9 @@ Lending companies work by analyzing the financial history of their loan applican
 - Because users arrive through a marketplace, we have access to their financial data before the onboarding process begins. This data includes personal information regarding age, income, time employed, debt and other financial metrics. Our company utilizes these financial data points to create risk scores based on a variety of factors.
 
 - We have been provided with a set of scores from algorithms built by the finance and engineering teams. Furthermore, the marketplace itself provides us with their own lead quality scores. Here we will leverage both sets of scores, as well as a small list of personal/financial features to predict if the user is likely to respond to the current onboarding process.
+
+---
+
+## Source Code
+
+- ### [EDA (Exploratory Data Analysis) and Feature Engineering](./notebooks/predicting-loan-signatures_eda.ipynb)
