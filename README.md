@@ -4,11 +4,11 @@
 
 # ML Fintech Case Studies
 
-A collection of machine learning use cases in fintech
+A collection of machine learning use cases in fintec
 
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-flux-capacitor.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/fo-sho.svg)](https://forthebadge.com)
+<img src="images/powered-by-flux-capacitor.svg"/>
+<img src="images/made-with-python.svg"/>
+<img src="images/fo-sho.svg"/>
 
 </div>
 
