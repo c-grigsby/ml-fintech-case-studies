@@ -11,6 +11,13 @@
 # Windows
 Thumbs.db
 
+# Trash
+.trash
+
+# MLflow Experiments
+**/meta.yaml
+**/tags/
+
 # Source for the following rules: https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
 # Byte-compiled / optimized / DLL files
 __pycache__/
