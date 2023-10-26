@@ -48,5 +48,8 @@ Lending companies work by analyzing the financial history of their loan applican
 
 - ### [EDA (Exploratory Data Analysis) and Feature Engineering](./notebooks/predicting-loan-signatures_eda.ipynb)
 
-
 - ### [Data Pre-processing and ML Model Building](notebooks/predicting-loan-signatures_model.ipynb)
+
+## Experiments
+
+- ### [Hyperopt Trials](./experiments/README.md)
