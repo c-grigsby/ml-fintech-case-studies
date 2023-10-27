@@ -53,3 +53,7 @@ Lending companies work by analyzing the financial history of their loan applican
 ## Experiments
 
 - ### [Hyperopt Trials](./experiments/README.md)
+
+## Models
+
+- ### [Optimized Models](./models/README.md)
