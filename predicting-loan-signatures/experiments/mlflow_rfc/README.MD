@@ -21,7 +21,7 @@ Hyperopt trials for Random Forest Classifier
 
   best_params: {'criterion': 0, 'max_depth': 10.0, 'max_features': 1, 'min_samples_leaf': 4.0, 'min_samples_split': 8.0, 'n_estimators': 375.0}
 
-  best run_id: = [79b16a349526460b98af72d593fde3ff](./995960703112558784/79b16a349526460b98af72d593fde3ff/)
+  best run_id: [79b16a349526460b98af72d593fde3ff](./995960703112558784/79b16a349526460b98af72d593fde3ff/)
 
 ---
 

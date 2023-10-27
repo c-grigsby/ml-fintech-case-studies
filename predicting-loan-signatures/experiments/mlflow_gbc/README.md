@@ -50,6 +50,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
   best run_id: [72d6080d9f5a4c54bd602012d622cb94](./471826949328499785/72d6080d9f5a4c54bd602012d622cb94/)
 
+  Best performing model thus far ⭐
 ---
 
 - ID: 717375715905391499, Name: hyperopt_tuning_68832
@@ -74,3 +75,30 @@ Hyperopt trials for Gradient Boosting Classifier
   {'learning_rate': 0.027821122390237863, 'max_depth': 7.0, 'max_features': 2, 'min_samples_leaf': 9.0, 'min_samples_split': 12.0, 'n_estimators': 240.0, 'subsample': 0.9458859821178202}
 
   best run_id: [4ffaa2c620e14681a582e67750f15263](./717375715905391499/4ffaa2c620e14681a582e67750f15263/)
+
+---
+
+- ID: 741470921111613064, Name: hyperopt_tuning_72801
+
+  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+
+  ```python
+  num_evals = 90
+  search_space = {
+    'n_estimators': hp.quniform('n_estimators', 300, 500, 10),
+    'max_depth': hp.quniform('max_depth', 5, 7, 1),  
+    'min_samples_split': hp.quniform('min_samples_split', 9, 11, 1),  
+    'min_samples_leaf': hp.quniform('min_samples_leaf', 1, 3, 1),  
+    'learning_rate': hp.loguniform('learning_rate', np.log(0.015), np.log(0.03)),
+    'subsample': hp.uniform('subsample', 0.7, 0.8),
+    'max_features': None
+  }
+  ```
+
+  100%|██████████| 90/90 [52:05<00:00, 34.73s/trial, best loss: -0.6437944375747264] 
+
+  {'learning_rate': 0.020537900334065485, 'max_depth': 7.0, 'min_samples_leaf': 2.0, 'min_samples_split': 11.0, 'n_estimators': 300.0, 'subsample': 0.7628578451766926}
+
+  best run_id: [d1ae942cb52e49209243d247494f3586](./741470921111613064/d1ae942cb52e49209243d247494f3586/)
+
+---
