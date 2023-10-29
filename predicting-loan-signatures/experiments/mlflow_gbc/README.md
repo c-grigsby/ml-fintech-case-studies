@@ -2,7 +2,7 @@
 
 Hyperopt trials for Gradient Boosting Classifier
 
-- ID: 473782803715669826, Name: hyperopt_tuning_85615
+- Experiment ID: 473782803715669826, Name: hyperopt_tuning_85615
 
   Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
@@ -27,7 +27,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 ---
 
-- ID: 471826949328499785, Name: hyperopt_tuning_27275
+- Experiment ID: 471826949328499785, Name: hyperopt_tuning_27275
 
   Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
@@ -53,7 +53,7 @@ Hyperopt trials for Gradient Boosting Classifier
   Best performing model thus far ⭐
 ---
 
-- ID: 717375715905391499, Name: hyperopt_tuning_68832
+- Experiment ID: 717375715905391499, Name: hyperopt_tuning_68832
 
   Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
@@ -78,7 +78,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 ---
 
-- ID: 741470921111613064, Name: hyperopt_tuning_72801
+- Experiment ID: 741470921111613064, Name: hyperopt_tuning_72801
 
   Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
