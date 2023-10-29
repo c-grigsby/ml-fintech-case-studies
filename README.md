@@ -6,9 +6,9 @@
 
 A collection of machine learning use cases in fintech
 
-<img src="images/powered-by-flux-capacitor.svg"/>
-<img src="images/made-with-python.svg"/>
-<img src="images/for-robots.svg"/>
+  <img src="images/powered-by-flux-capacitor.svg" alt="powered-by-flux-capacitor"/>
+  <img src="images/made-with-python.svg" alt="made-with-python"/>
+  <img src="images/for-robots.svg" alt="for-robots"/>
 
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/docs/getting_started/index.html)
 [![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/doc/stable/)
@@ -24,7 +24,7 @@ A collection of machine learning use cases in fintech
 
 Directing Users to Subscription Products via App Behavior Analysis
 
-<img src="./images/convert-users.png" width="450" alt="Directing"/>
+<img src="./images/convert-users.png" width="450" alt="convert-users"/>
 
 <br/>
 
@@ -32,4 +32,4 @@ Directing Users to Subscription Products via App Behavior Analysis
 
 Predicting E-Signatures on Loans via Financial History
 
-<img src="./images/predicting-loan-e-sign.png" width="325" alt="Directing"/>
+<img src="./images/predicting-loan-e-sign.png" width="325" alt="loan-e-sign"/>
