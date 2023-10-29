@@ -4,11 +4,19 @@
 
 # ML Fintech Case Studies
 
-A collection of machine learning use cases in fintec
+A collection of machine learning use cases in fintech
 
 <img src="images/powered-by-flux-capacitor.svg"/>
 <img src="images/made-with-python.svg"/>
-<img src="images/fo-sho.svg"/>
+<img src="images/for-robots.svg"/>
+
+[![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/docs/getting_started/index.html)
+[![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/doc/stable/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
+[![MLflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=mlflow&logoColor=blue)](https://mlflow.org/)
+[![Hyperopt](https://img.shields.io/badge/Hyperopt-254117?style=for-the-badge)](http://hyperopt.github.io/hyperopt/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-5A819C?style=for-the-badge)](https://seaborn.pydata.org/)
 
 </div>
 
