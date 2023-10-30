@@ -2,7 +2,7 @@
 
 Hyperopt trials for Gradient Boosting Classifier
 
-- ID: 473782803715669826, Name: hyperopt_tuning_85615
+- Experiment ID: 473782803715669826, Name: hyperopt_tuning_85615
 
   Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
@@ -27,7 +27,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 ---
 
-- ID: 471826949328499785, Name: hyperopt_tuning_27275
+- Experiment ID: 471826949328499785, Name: hyperopt_tuning_27275
 
   Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
@@ -53,7 +53,7 @@ Hyperopt trials for Gradient Boosting Classifier
   Best performing model thus far ⭐
 ---
 
-- ID: 717375715905391499, Name: hyperopt_tuning_68832
+- Experiment ID: 717375715905391499, Name: hyperopt_tuning_68832
 
   Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
@@ -78,7 +78,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 ---
 
-- ID: 741470921111613064, Name: hyperopt_tuning_72801
+- Experiment ID: 741470921111613064, Name: hyperopt_tuning_72801
 
   Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
@@ -102,3 +102,26 @@ Hyperopt trials for Gradient Boosting Classifier
   best run_id: [d1ae942cb52e49209243d247494f3586](./741470921111613064/d1ae942cb52e49209243d247494f3586/)
 
 ---
+
+- Experiment ID: 139918156906518205, Name: hyperopt_tuning_27275
+
+  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+
+  ```python
+  num_evals = 105
+  search_space = {
+      'n_estimators': hp.quniform('n_estimators', 100, 350, 10),
+      'max_depth': hp.quniform('max_depth', 5, 8, 1),
+      'min_samples_split': hp.quniform('min_samples_split', 2, 10, 1),
+      'min_samples_leaf': hp.quniform('min_samples_leaf', 1, 10, 1),
+      'learning_rate': hp.loguniform('learning_rate', np.log(0.01), np.log(0.2)),
+      'subsample': hp.uniform('subsample', 0.7, 1.0),
+      'max_features': hp.choice('max_features', ['sqrt', 'log2', None]),
+  }
+  ```
+
+  best loss: 0.6430966788567619
+
+  {'learning_rate': 0.03010207666228227, 'max_depth': 8, 'max_features:' 2, min_samples_split': 7, 'min_samples_leaf': 5, 'n_estimators': 210, 'subsample': 0.8886081549755126}
+
+  best run_id: [507e6cbc997c4b32bb625de063503d38](./139918156906518205/507e6cbc997c4b32bb625de063503d38/)
