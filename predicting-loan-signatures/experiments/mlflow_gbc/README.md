@@ -41,7 +41,7 @@ Hyperopt trials for Gradient Boosting Classifier
       'learning_rate': hp.loguniform('learning_rate', np.log(0.01), np.log(0.2)),
       'subsample': hp.uniform('subsample', 0.7, 1.0),
       'max_features': hp.choice('max_features', ['sqrt', 'log2', None]),
-  }
+      }
   ```
 
   best loss: 0.6430966788567619
@@ -51,6 +51,7 @@ Hyperopt trials for Gradient Boosting Classifier
   best run_id: [72d6080d9f5a4c54bd602012d622cb94](./471826949328499785/72d6080d9f5a4c54bd602012d622cb94/)
 
   Best performing model thus far ⭐
+
 ---
 
 - Experiment ID: 717375715905391499, Name: hyperopt_tuning_68832
@@ -67,7 +68,7 @@ Hyperopt trials for Gradient Boosting Classifier
       'learning_rate': hp.loguniform('learning_rate', np.log(0.02), np.log(0.04)),
       'subsample': hp.uniform('subsample', 0.7, 1.0),
       'max_features': hp.choice('max_features', ['sqrt', 'log2', None]),
-  }
+      }
   ```
 
   100%|██████████| 105/105 [38:38<00:00, 22.08s/trial, best loss: -0.6426775237443764]
@@ -86,16 +87,16 @@ Hyperopt trials for Gradient Boosting Classifier
   num_evals = 90
   search_space = {
     'n_estimators': hp.quniform('n_estimators', 300, 500, 10),
-    'max_depth': hp.quniform('max_depth', 5, 7, 1),  
-    'min_samples_split': hp.quniform('min_samples_split', 9, 11, 1),  
-    'min_samples_leaf': hp.quniform('min_samples_leaf', 1, 3, 1),  
+    'max_depth': hp.quniform('max_depth', 5, 7, 1),
+    'min_samples_split': hp.quniform('min_samples_split', 9, 11, 1),
+    'min_samples_leaf': hp.quniform('min_samples_leaf', 1, 3, 1),
     'learning_rate': hp.loguniform('learning_rate', np.log(0.015), np.log(0.03)),
     'subsample': hp.uniform('subsample', 0.7, 0.8),
     'max_features': None
-  }
+    }
   ```
 
-  100%|██████████| 90/90 [52:05<00:00, 34.73s/trial, best loss: -0.6437944375747264] 
+  100%|██████████| 90/90 [52:05<00:00, 34.73s/trial, best loss: -0.6437944375747264]
 
   {'learning_rate': 0.020537900334065485, 'max_depth': 7.0, 'min_samples_leaf': 2.0, 'min_samples_split': 11.0, 'n_estimators': 300.0, 'subsample': 0.7628578451766926}
 
@@ -103,25 +104,25 @@ Hyperopt trials for Gradient Boosting Classifier
 
 ---
 
-- Experiment ID: 139918156906518205, Name: hyperopt_tuning_27275
+- Experiment ID: 504706898397860315, Name: hyperopt_tuning_21802
 
   Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
   ```python
-  num_evals = 105
+  num_evals = 60
   search_space = {
-      'n_estimators': hp.quniform('n_estimators', 100, 350, 10),
-      'max_depth': hp.quniform('max_depth', 5, 8, 1),
-      'min_samples_split': hp.quniform('min_samples_split', 2, 10, 1),
-      'min_samples_leaf': hp.quniform('min_samples_leaf', 1, 10, 1),
-      'learning_rate': hp.loguniform('learning_rate', np.log(0.01), np.log(0.2)),
-      'subsample': hp.uniform('subsample', 0.7, 1.0),
-      'max_features': hp.choice('max_features', ['sqrt', 'log2', None]),
-  }
+    'n_estimators': hp.quniform('n_estimators', 200, 450, 10),
+    'max_depth': hp.quniform('max_depth', 5, 8, 1),
+    'min_samples_split': hp.quniform('min_samples_split', 2, 10, 1),
+    'min_samples_leaf': hp.quniform('min_samples_leaf', 1, 10, 1),
+    'learning_rate': hp.loguniform('learning_rate', np.log(0.01), np.log(0.2)),
+    'subsample': hp.uniform('subsample', 0.7, 1.0),
+    'max_features': None
+    }
   ```
 
-  best loss: 0.6430966788567619
+  100%|██████████| 60/60 [56:47<00:00, 56.79s/trial, best loss: -0.6451206843427608]
 
-  {'learning_rate': 0.03010207666228227, 'max_depth': 8, 'max_features:' 2, min_samples_split': 7, 'min_samples_leaf': 5, 'n_estimators': 210, 'subsample': 0.8886081549755126}
+  {'learning_rate': 0.03610888652938746, 'max_depth': 5.0, 'min_samples_leaf': 3.0, 'min_samples_split': 10.0, 'n_estimators': 290.0, 'subsample': 0.9224316008981079}
 
-  best run_id: [507e6cbc997c4b32bb625de063503d38](./139918156906518205/507e6cbc997c4b32bb625de063503d38/)
+  Best Scoring Run ID: [ba26710b072f4e71830210a46bbf1c06](./504706898397860315/ba26710b072f4e71830210a46bbf1c06/)
