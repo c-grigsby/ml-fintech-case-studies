@@ -50,30 +50,32 @@ Lending companies work by analyzing the financial history of their loan applican
 
 ## Source Code
 
-- ### [EDA (Exploratory Data Analysis) and Feature Engineering](./notebooks/predicting-loan-signatures_eda.ipynb)
+- [EDA (Exploratory Data Analysis) and Feature Engineering](./notebooks/predicting-loan-signatures_eda.ipynb)
 
-- ### [Data Pre-processing and ML Model Building](notebooks/predicting-loan-signatures_model.ipynb)
+- [Data Pre-processing and Model Building](notebooks/predicting-loan-signatures_model.ipynb)
 
 ## Experiments
 
-- ### [Hyperopt Trials](./experiments/README.md)
+- [Hyperopt Trials](./experiments/README.md)
 
 ## Models
 
-- ### [Optimized Models](./models/README.md)
+- [Optimized Models](./models/README.md)
 
 ## Data
 
-- ### [Raw](./data/raw/P39-Financial-Data.csv)
-- ### [Processed](./data/processed/new_P39-Financial-Data.csv)
-- ### [Results](./data/results/)
+- [Raw](./data/raw/P39-Financial-Data.csv)
+- [Processed](./data/processed/new_P39-Financial-Data.csv)
+- [Results](./data/results/)
 
 ---
 
 ## Model Evaluation Results
 
-- We have developed a model with reasonable discriminatory capabilities to predict whether or not users will complete the electronic signature phase of the loan application onboarding process. This model enables the company to target less 'quality' applicants immediately upon acquisition from a P2P lending marketplace and experiment with different onboarding screens and engagement strategies.
+- We have developed a model with reasonable discriminatory capabilities to predict whether or not a lead will complete the electronic signature phase of the loan application onboarding process. This model enables the company to target less 'quality' applicants immediately upon acquisition from a P2P lending marketplace and experiment with different onboarding screens and engagement strategies.
 
 - Our optimized model currently provides predictions with scores of approximately 64% Accuracy, 66% Precision, 69% Recall, and 67% F1 on test data. The last recorded AUC (Area Under the Receiver Operating Characteristic Curve) was approximately 71%, which is considered reasonable. These are metrics for computer nerds to evaluate models. Our recommendation is to consider this recall score if the existing conversion rates for leads are satisfactory as stated. Recall aims to minimize false negatives (predicting an applicant would not complete the e-signature phase when they actually would) which could be costly and encourage inefficient usage of resources dedicated to converting applicants that were going to sign anyway. Improvements may be achieved by collecting significantly more data, utilizing more advanced ensembling techniques and experimentation with neural networks.
 
 - The model's impact on both the increased number of loans provided to applicants and the resulting boost in revenue can serve as key indicators of its value to the company. ❤️ 🤖
+
+- [Applicants Unlikely to Complete the Electronic Signature Phase](./data/results/users_unlikely_to_eSign_2023-11-04%2015%3A04%3A00.csv)
