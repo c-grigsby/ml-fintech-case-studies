@@ -64,7 +64,7 @@ Lending companies work by analyzing the financial history of their loan applican
 
 ## Data
 
-- [Raw](./data/raw/P39-Financial-Data.csv)
+- [Profiling Report](https://ml-fintech-case-studies.netlify.app/profile_reports/P39-Financial-Data.html#overview) of P39-Financial-Data.csv
 - [Processed](./data/processed/new_P39-Financial-Data.csv)
 - [Results](./data/results/)
 
