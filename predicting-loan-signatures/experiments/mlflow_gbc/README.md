@@ -4,7 +4,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 - Experiment ID: 473782803715669826, Name: hyperopt_tuning_85615
 
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **Accuracy** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 105
@@ -29,7 +29,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 - Experiment ID: 471826949328499785, Name: hyperopt_tuning_27275
 
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **Accuracy** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 105
@@ -50,13 +50,13 @@ Hyperopt trials for Gradient Boosting Classifier
 
   best run_id: [72d6080d9f5a4c54bd602012d622cb94](./471826949328499785/72d6080d9f5a4c54bd602012d622cb94/)
 
-  Best performing model thus far ⭐
+  Best performing model thus far
 
 ---
 
 - Experiment ID: 717375715905391499, Name: hyperopt_tuning_68832
 
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **Accuracy** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 105
@@ -81,7 +81,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 - Experiment ID: 741470921111613064, Name: hyperopt_tuning_72801
 
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **Accuracy** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 90
@@ -106,7 +106,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 - Experiment ID: 504706898397860315, Name: hyperopt_tuning_21802
 
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest accuracy scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **Accuracy** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 60
@@ -126,3 +126,30 @@ Hyperopt trials for Gradient Boosting Classifier
   {'learning_rate': 0.03610888652938746, 'max_depth': 5.0, 'min_samples_leaf': 3.0, 'min_samples_split': 10.0, 'n_estimators': 290.0, 'subsample': 0.9224316008981079}
 
   Best Scoring Run ID: [ba26710b072f4e71830210a46bbf1c06](./504706898397860315/ba26710b072f4e71830210a46bbf1c06/)
+
+  ***
+
+  - Experiment ID: 455990813687122612, Name: hyperopt_tuning_62277
+
+  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **AUC (Area Under the ROC Curve)** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+
+  ```python
+  num_evals = 60
+  search_space = {
+    'n_estimators': hp.quniform('n_estimators', 100, 400, 10),
+    'max_depth': hp.quniform('max_depth', 5, 10, 1),
+    'min_samples_split': hp.quniform('min_samples_split', 2, 10, 1),
+    'min_samples_leaf': hp.quniform('min_samples_leaf', 1, 10, 1),
+    'learning_rate': hp.loguniform('learning_rate', np.log(0.01), np.log(0.2)),
+    'subsample': hp.uniform('subsample', 0.7, 1.0),
+    'max_features': None
+    }
+  ```
+
+  100%|██████████| 60/60 [56:47<00:00, 56.79s/trial, best loss: -0.7019674096365435]
+
+  {'learning_rate': 0.015275982184203713, 'max_depth': 7.0, 'min_samples_leaf': 4.0, 'min_samples_split': 7.0, 'n_estimators': 320.0, 'subsample': 0.9015413148869229}
+
+  Best Scoring Run ID: [1be79e9f05e24d009bab26abe40aab8e](./455990813687122612/1be79e9f05e24d009bab26abe40aab8e/)
+
+  Best run so far ⭐
