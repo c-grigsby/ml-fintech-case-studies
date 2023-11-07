@@ -4,7 +4,7 @@ Hyperopt trials for Random Forest Classifier
 
 - Experiment ID: 995960703112558784, Name: hyperopt_tuning
 
-  Description: MLflow runs from scikit-learn Random Forest Classifier models with the highest accuracy scores during initial Hyperopt trials. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from scikit-learn Random Forest Classifier models with the highest **Accuracy** scores during initial Hyperopt trials. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 85
@@ -27,7 +27,7 @@ Hyperopt trials for Random Forest Classifier
 
 - Experiment ID: 220807592115232226, Name: hyperopt_tuning_34874
 
-  Description: MLflow runs from scikit-learn Random Forest Classifier models with the highest accuracy scores during Hyperopt trials. Models need to be fit before inference.
+  Description: MLflow runs from scikit-learn Random Forest Classifier models with the highest **Accuracy** scores during Hyperopt trials. Models need to be fit before inference.
 
   ```python
   num_evals = 85
