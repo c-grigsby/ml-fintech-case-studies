@@ -1,6 +1,6 @@
 hyperopt==0.2.7
 matplotlib==3.7.3
-mlflow==2.7.1
+mlflow==2.8.0
 numpy==1.25.2
 pandas==2.0.3
 reportlab==4.0.6
