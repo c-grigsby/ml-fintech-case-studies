@@ -54,31 +54,6 @@ Hyperopt trials for Gradient Boosting Classifier
 
 ---
 
-- Experiment ID: 717375715905391499, Name: hyperopt_tuning_68832
-
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **Accuracy** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
-
-  ```python
-  num_evals = 105
-  search_space = {
-      'n_estimators': hp.quniform('n_estimators', 200, 400, 10),
-      'max_depth': hp.quniform('max_depth', 5, 10, 1),
-      'min_samples_split': hp.quniform('min_samples_split', 5, 15, 1),
-      'min_samples_leaf': hp.quniform('min_samples_leaf', 1, 10, 1),
-      'learning_rate': hp.loguniform('learning_rate', np.log(0.02), np.log(0.04)),
-      'subsample': hp.uniform('subsample', 0.7, 1.0),
-      'max_features': hp.choice('max_features', ['sqrt', 'log2', None]),
-      }
-  ```
-
-  100%|██████████| 105/105 [38:38<00:00, 22.08s/trial, best loss: -0.6426775237443764]
-
-  {'learning_rate': 0.027821122390237863, 'max_depth': 7.0, 'max_features': 2, 'min_samples_leaf': 9.0, 'min_samples_split': 12.0, 'n_estimators': 240.0, 'subsample': 0.9458859821178202}
-
-  best run_id: [4ffaa2c620e14681a582e67750f15263](./717375715905391499/4ffaa2c620e14681a582e67750f15263/)
-
----
-
 - Experiment ID: 741470921111613064, Name: hyperopt_tuning_72801
 
   Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **Accuracy** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
@@ -127,11 +102,11 @@ Hyperopt trials for Gradient Boosting Classifier
 
   Best Scoring Run ID: [ba26710b072f4e71830210a46bbf1c06](./504706898397860315/ba26710b072f4e71830210a46bbf1c06/)
 
-  ***
+---
 
-  - Experiment ID: 455990813687122612, Name: hyperopt_tuning_62277
+- Experiment ID: 455990813687122612, Name: hyperopt_tuning_62277
 
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **AUC (Area Under the ROC Curve)** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **AUC (Area Under the ROC Curve)** scores. Models fit on the training data of a train/validation/test split. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 60
