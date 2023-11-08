@@ -1,0 +1,40 @@
+artifact_path: model
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.12
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: xgb
+    xgb_version: 1.7.6
+mlflow_version: 2.8.0
+model_size_bytes: 161437
+model_uuid: cb9e0d55132242f281444df766a33204
+run_id: e197041876dd401d91a016d4ec1f973d
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "OtherScreens"}, {"type": "double", "name":
+    "CreditMonitoringScreens"}, {"type": "double", "name": "LoanScreens"}, {"type":
+    "double", "name": "SavingsScreens"}, {"type": "double", "name": "minigame"}, {"type":
+    "double", "name": "used_premium_feature"}, {"type": "double", "name": "location"},
+    {"type": "double", "name": "VerifyPhone"}, {"type": "double", "name": "BankVerification"},
+    {"type": "double", "name": "VerifyDateOfBirth"}, {"type": "double", "name": "ProfilePage"},
+    {"type": "double", "name": "VerifyCountry"}, {"type": "double", "name": "idscreen"},
+    {"type": "double", "name": "Splash"}, {"type": "double", "name": "Finances"},
+    {"type": "double", "name": "Alerts"}, {"type": "double", "name": "VerifyMobile"},
+    {"type": "double", "name": "VerifyHousing"}, {"type": "double", "name": "VerifyHousingAmount"},
+    {"type": "double", "name": "AccountView"}, {"type": "double", "name": "VerifyAnnualIncome"},
+    {"type": "double", "name": "Login"}, {"type": "double", "name": "ProfileEmploymentLength"},
+    {"type": "double", "name": "WebView"}, {"type": "double", "name": "ResendToken"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2023-11-08 06:55:53.990845'
