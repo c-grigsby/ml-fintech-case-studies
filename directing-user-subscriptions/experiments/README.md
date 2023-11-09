@@ -8,14 +8,18 @@
 
 ## Experiment Tracking
 
-- To utilize the [MLflow](https://mlflow.org/) UI with your experiments when using a file directory for backend storage
+- To utilize the [MLflow](https://mlflow.org/) UI with your experiments when using SQLite for backend storage
+
+  Navigate in the terminal to the directory hosting the SQLite database for experiments and execute
 
   ```
-  $ mlflow server --backend-store-uri <absolute_path_to_directory_hosting_your_experiment>
+  $ mlflow ui --backend-store-uri sqlite:///mlflow.sqlite -p 8000
   ```
 
-  Open your browser at http://localhost:5000/
+  Open your browser at http://localhost:8000/
 
   <img src="../../images/mlflow-ui.png" width="800">
 
-  _The following files are excluded from this git repository: meta.yaml, tags_
+  **_To reduce repository size, the SQLite database and artifacts from Hyperopt trials are excluded from git_**
+
+- For a demo of using a file directory for backend storage, visit use case [Predicting Loan E-Signatures](../../predicting-loan-signatures/experiments/README.md)
