@@ -26,4 +26,4 @@ Optimized scikit-learn Gradient Boosting Classifier models. Trained and ready fo
 
 ---
 
-_Files excluded from git repository: meta.yaml, tags_
+**_Files excluded from this git repository: meta.yaml, tags_**

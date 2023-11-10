@@ -1,10 +1,10 @@
 # mlflow_gbc
 
-Hyperopt trials for Gradient Boosting Classifier
+Hyperopt trials for GradientBoostingClassifier
 
 - Experiment ID: 473782803715669826, Name: hyperopt_tuning_85615
 
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **Accuracy** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from hyperparameter tuning with scikit-learn GradientBoostingClassifier models aiming to maximize **accuracy** scores. To reduce repository size, only runs with the highest loss scores persisted. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 105
@@ -29,7 +29,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 - Experiment ID: 471826949328499785, Name: hyperopt_tuning_27275
 
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **Accuracy** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from hyperparameter tuning with scikit-learn GradientBoostingClassifier models aiming to maximize **accuracy** scores. To reduce repository size, only runs with the highest loss scores persisted. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 105
@@ -56,7 +56,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 - Experiment ID: 741470921111613064, Name: hyperopt_tuning_72801
 
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **Accuracy** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from hyperparameter tuning with scikit-learn GradientBoostingClassifier models aiming to maximize **accuracy** scores. To reduce repository size, only runs with the highest loss scores persisted. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 90
@@ -81,7 +81,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 - Experiment ID: 504706898397860315, Name: hyperopt_tuning_21802
 
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **Accuracy** scores. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from hyperparameter tuning with scikit-learn GradientBoostingClassifier models aiming to maximize **accuracy** scores. To reduce repository size, only runs with the highest loss scores persisted. Models will need to be fit before inference. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 60
@@ -106,7 +106,7 @@ Hyperopt trials for Gradient Boosting Classifier
 
 - Experiment ID: 455990813687122612, Name: hyperopt_tuning_62277
 
-  Description: MLflow runs from scikit-learn Gradient Boosting Classifier models with the highest **AUC (Area Under the ROC Curve)** scores. Models fit on the training data of a train/validation/test split. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from hyperparameter tuning with scikit-learn GradientBoostingClassifier models aiming to maximize **AUC (Area Under the ROC Curve)** scores. To reduce repository size, only runs with the highest loss scores persisted. Models fit on the training set of a train-validation-test split. Files excluded from git: meta.yaml, tags.
 
   ```python
   num_evals = 60

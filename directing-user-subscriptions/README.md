@@ -6,11 +6,13 @@
 
 ### Directing Users to Subscription Products via App Behavior Analysis
 
-[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/docs/getting_started/index.html)
 [![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/doc/stable/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
+[![MLflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=mlflow&logoColor=blue)](https://mlflow.org/)
+[![Hyperopt](https://img.shields.io/badge/Hyperopt-254117?style=for-the-badge)](http://hyperopt.github.io/hyperopt/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-5A819C?style=for-the-badge)](https://seaborn.pydata.org/)
 
 </div>
 
@@ -36,16 +38,23 @@ In today's market, many companies have a mobile presence. Often, companies provi
 
 - App usage data is only from the user's first 24 hours with the app. This limitation exists because users are restricted to a 24-hour free trial period of access to premium features, and the company wants to target unsubscribed users with new offers shortly after the trial completes.
 
+- [app-user-data.csv](./data/raw/app-user-data.csv)
+
 ---
 
 ## Source Code
 
-- ### [EDA (Exploratory Data Analysis) and Feature Engineering](notebooks/directing-user-subscriptions_eda.ipynb)
-- ### [Data Pre-processing and ML Model Building](notebooks/directing-user-subscriptions_model.ipynb)
+- [EDA (Exploratory Data Analysis) and Feature Engineering](./notebooks/directing-user-subscriptions_eda.ipynb)
+
+- [Data Pre-processing and Model Building](./notebooks/directing-user-subscriptions_model.ipynb)
+
+## Experiments
+
+- [Hyperopt Trials](./experiments/README.md)
+
+## Data
+
+- [Profiling Report](https://ml-fintech-case-studies.netlify.app/profile_reports/app-user-data.html#overview) of app-user-data.csv
+- [Processed](./data/processed/)
 
 ---
-
-## Results 
-
-- Our efforts have produced a model that identifies users as "highly likely" or "unlikely" to enroll in paid subscriptions based upon their first 24-hours of interaction with the application. This data enables the company to target users unlikely to enroll in paid subscriptions immediately upon free trial completion. These results can be further validated by comparing model predictions to daily new installs. The increase in overall subscriptions can measure the benefit of this model to the company. ❤️ 🤖
-- ### [Data](data/results/) 
