@@ -1,6 +1,6 @@
 # mlflow_rfc
 
-Hyperopt trials for Random Forest Classifier
+Hyperopt trials for RandomForestClassifier
 
 - Experiment ID: 995960703112558784, Name: hyperopt_tuning
 

@@ -78,4 +78,4 @@ Lending companies work by analyzing the financial history of their loan applican
 
 - The model's impact on both the increased number of loans provided to applicants and the resulting boost in revenue can serve as key indicators of its value to the company. ❤️ 🤖
 
-- [Applicants Unlikely to Complete the Electronic Signature Phase](./data/results/users_unlikely_to_eSign_2023-11-06%2021%3A05%3A03.csv)
+- [Applicants Unlikely to Complete the Electronic Signature Phase](./data/results/users_unlikely_to_eSign_2023-11-09%2022%3A11%3A11.csv)
