@@ -20,7 +20,8 @@ Hyperopt trials for XGBClassifier
     'reg_lambda': hp.loguniform('reg_lambda', -10, 10),
     'gamma': hp.loguniform('gamma', -10, 10),
     'use_label_encoder': False,
-    'v
+    'verbosity': 0,
+    }
 
   ```
 
