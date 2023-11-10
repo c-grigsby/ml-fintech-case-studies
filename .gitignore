@@ -17,6 +17,8 @@ Thumbs.db
 # MLflow Experiments
 **/meta.yaml
 **/tags/
+directing-user-subscriptions/experiments/**/artifacts
+*.sqlite
 
 # Source for the following rules: https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
 # Byte-compiled / optimized / DLL files
