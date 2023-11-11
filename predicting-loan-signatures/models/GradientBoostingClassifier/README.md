@@ -12,15 +12,15 @@ Optimized scikit-learn Gradient Boosting Classifier models. Trained and ready fo
 
   params: [hyperparameters, feature_importances](./345569890189320585/6a9c1c1e571849029d8a33f702b203c3/params/)
 
-- run_name: silent-fish-670
+- run_name: redolent-finch-845
 
-  run_id: [b5534712628041bebdd77b88c780cde7](./345569890189320585/b5534712628041bebdd77b88c780cde7/)
+  run_id: [4f7c99a6d0434a8f8fb312c2753304bf](./345569890189320585/4f7c99a6d0434a8f8fb312c2753304bf/)
 
-  artifacts: [model](./345569890189320585/b5534712628041bebdd77b88c780cde7/artifacts/model/), [sample training data](./345569890189320585/b5534712628041bebdd77b88c780cde7/artifacts/sample_train_data_79569.csv)
+  artifacts: [model](./345569890189320585/4f7c99a6d0434a8f8fb312c2753304bf/artifacts/model/), [sample training data](./345569890189320585/4f7c99a6d0434a8f8fb312c2753304bf/artifacts/sample_train_data_12828.csv)
 
-  metrics: [accuracy, F1, precision, recall, AUC](./345569890189320585/b5534712628041bebdd77b88c780cde7/metrics/)
+  metrics: [accuracy, F1, precision, recall, AUC](./345569890189320585/4f7c99a6d0434a8f8fb312c2753304bf/metrics/)
 
-  params: [hyperparameters, feature_importances](./345569890189320585/b5534712628041bebdd77b88c780cde7/params/)
+  params: [hyperparameters, feature_importances](./345569890189320585/4f7c99a6d0434a8f8fb312c2753304bf/params/)
 
   Best scoring model so far ⭐
 
