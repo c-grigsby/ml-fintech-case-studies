@@ -21,3 +21,5 @@
   <img src="../../images/mlflow-ui.png" width="800">
 
   **_The following files are excluded from this git repository: meta.yaml, tags_**
+
+  For a demo of using a SQLite database for backend storage, visit use case [Directing User Subscriptions](../../directing-user-subscriptions/README.md)
