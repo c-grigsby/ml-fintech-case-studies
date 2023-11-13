@@ -12,15 +12,15 @@ Optimized scikit-learn Gradient Boosting Classifier models. Trained and ready fo
 
   params: [hyperparameters, feature_importances](./345569890189320585/6a9c1c1e571849029d8a33f702b203c3/params/)
 
-- run_name: redolent-finch-845
+- run_name: kindly-grouse-202
 
-  run_id: [4f7c99a6d0434a8f8fb312c2753304bf](./345569890189320585/4f7c99a6d0434a8f8fb312c2753304bf/)
+  run_id: [7af8e437196546a1b16c7d5877561ecd](./345569890189320585/7af8e437196546a1b16c7d5877561ecd/)
 
-  artifacts: [model](./345569890189320585/4f7c99a6d0434a8f8fb312c2753304bf/artifacts/model/), [sample training data](./345569890189320585/4f7c99a6d0434a8f8fb312c2753304bf/artifacts/sample_train_data_12828.csv)
+  artifacts: [model](./345569890189320585/7af8e437196546a1b16c7d5877561ecd/artifacts/model/), [sample training data](./345569890189320585/7af8e437196546a1b16c7d5877561ecd/artifacts/sample_train_data_87317.csv)
 
-  metrics: [accuracy, F1, precision, recall, AUC](./345569890189320585/4f7c99a6d0434a8f8fb312c2753304bf/metrics/)
+  metrics: [accuracy, F1, precision, recall, AUC](./345569890189320585/7af8e437196546a1b16c7d5877561ecd/metrics/)
 
-  params: [hyperparameters, feature_importances](./345569890189320585/4f7c99a6d0434a8f8fb312c2753304bf/params/)
+  params: [hyperparameters, feature_importances](./345569890189320585/7af8e437196546a1b16c7d5877561ecd/params/)
 
   Best scoring model so far ⭐
 

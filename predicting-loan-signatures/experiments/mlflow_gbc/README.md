@@ -23,7 +23,7 @@ Hyperopt trials for GradientBoostingClassifier
 
   {'learning_rate': 0.033750928322144595, 'max_depth': 9.0, 'max_features': 1, 'min_samples_split': 6.0, 'min_samples_leaf': 5.0, 'n_estimators': 195.0, 'subsample': 0.9456725930585413}
 
-  best run_id: [be1341227be3421ab22c5c49410627cb](./473782803715669826/be1341227be3421ab22c5c49410627cb/)
+  best loss run_id: [be1341227be3421ab22c5c49410627cb](./473782803715669826/be1341227be3421ab22c5c49410627cb/)
 
 ---
 
@@ -48,9 +48,7 @@ Hyperopt trials for GradientBoostingClassifier
 
   {'learning_rate': 0.0273666022526306, 'max_depth': 6, 'max_features:' 2, min_samples_split': 10, 'min_samples_leaf': 1, 'n_estimators': 350, 'subsample': 0.703030578436894}
 
-  best run_id: [72d6080d9f5a4c54bd602012d622cb94](./471826949328499785/72d6080d9f5a4c54bd602012d622cb94/)
-
-  Best performing model thus far
+  best loss run_id: [72d6080d9f5a4c54bd602012d622cb94](./471826949328499785/72d6080d9f5a4c54bd602012d622cb94/)
 
 ---
 
@@ -75,7 +73,7 @@ Hyperopt trials for GradientBoostingClassifier
 
   {'learning_rate': 0.020537900334065485, 'max_depth': 7.0, 'min_samples_leaf': 2.0, 'min_samples_split': 11.0, 'n_estimators': 300.0, 'subsample': 0.7628578451766926}
 
-  best run_id: [d1ae942cb52e49209243d247494f3586](./741470921111613064/d1ae942cb52e49209243d247494f3586/)
+  best loss run_id: [d1ae942cb52e49209243d247494f3586](./741470921111613064/d1ae942cb52e49209243d247494f3586/)
 
 ---
 
@@ -100,16 +98,16 @@ Hyperopt trials for GradientBoostingClassifier
 
   {'learning_rate': 0.03610888652938746, 'max_depth': 5.0, 'min_samples_leaf': 3.0, 'min_samples_split': 10.0, 'n_estimators': 290.0, 'subsample': 0.9224316008981079}
 
-  Best Scoring Run ID: [ba26710b072f4e71830210a46bbf1c06](./504706898397860315/ba26710b072f4e71830210a46bbf1c06/)
+  best loss run_id: [ba26710b072f4e71830210a46bbf1c06](./504706898397860315/ba26710b072f4e71830210a46bbf1c06/)
 
 ---
 
-- Experiment ID: 455990813687122612, Name: hyperopt_tuning_62277
+- Experiment ID: 224708608558611348, Name: hyperopt_tuning_28319
 
-  Description: MLflow runs from hyperparameter tuning with scikit-learn GradientBoostingClassifier models aiming to maximize **AUC (Area Under the ROC Curve)** scores. To reduce repository size, only runs with the highest loss scores persisted. Models fit on the training set of a train-validation-test split. Files excluded from git: meta.yaml, tags.
+  Description: MLflow runs from hyperparameter tuning with scikit-learn GradientBoostingClassifier models aiming to maximize **AUC (Area Under the ROC Curve)** scores. Models fit on the training set of a train-validation-test split. Files excluded from git: meta.yaml, tags.
 
   ```python
-  num_evals = 60
+  num_evals = 90
   search_space = {
     'n_estimators': hp.quniform('n_estimators', 100, 400, 10),
     'max_depth': hp.quniform('max_depth', 5, 10, 1),
@@ -121,10 +119,9 @@ Hyperopt trials for GradientBoostingClassifier
     }
   ```
 
-  100%|██████████| 60/60 [56:47<00:00, 56.79s/trial, best loss: -0.7019674096365435]
+  100%|██████████| 90/90 [54:15<00:00, 36.17s/trial, best loss: -0.7019982364013503]
+  {'learning_rate': 0.020813922863003702, 'max_depth': 8.0, 'min_samples_leaf': 1.0, 'min_samples_split': 8.0, 'n_estimators': 220.0, 'subsample': 0.7489880854309083}
 
-  {'learning_rate': 0.015275982184203713, 'max_depth': 7.0, 'min_samples_leaf': 4.0, 'min_samples_split': 7.0, 'n_estimators': 320.0, 'subsample': 0.9015413148869229}
+  best loss run_id: [75bdabb8181e4752a842c55efcc725af](./224708608558611348/75bdabb8181e4752a842c55efcc725af/)
 
-  Best Scoring Run ID: [1be79e9f05e24d009bab26abe40aab8e](./455990813687122612/1be79e9f05e24d009bab26abe40aab8e/)
-
-  Best run so far ⭐
+  Best scoring run so far ⭐
