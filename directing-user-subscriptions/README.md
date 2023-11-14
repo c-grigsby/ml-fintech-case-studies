@@ -52,7 +52,12 @@ In today's market, many companies have a mobile presence. Often, companies provi
 
 - [Hyperopt Trials](./experiments/README.md)
 
+## Models
+
+- [Optimized Models](./models/README.md)
+
 ## Data
 
 - [Profiling Report](https://ml-fintech-case-studies.netlify.app/profile_reports/app-user-data.html#overview) of app-user-data.csv
 - [Processed](./data/processed/)
+- [Results](./data/results/)
