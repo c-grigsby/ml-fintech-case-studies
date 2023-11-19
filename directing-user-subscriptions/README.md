@@ -30,7 +30,7 @@ In today's market, many companies have a mobile presence. Often, companies provi
 
 - In this case study, the client is a fintech company that wants to provide its customers with a paid app subscription that will allow them to track all their financial data in one place. To attract customers, it has released a free version of the app with some of the main features unlocked.
 
-- The company has asked we identify which users are _NOT_ likely to enroll in the paid product, so that additional offers can be given to them. Because of the cost of these offers, the company does not want to give them to everyone. Especially those who were going to enroll anyways.
+- The company has asked we identify which users are not likely to enroll in the paid product, so that additional offers can be given to them. Because of the cost of these offers, the company does not want to give them to everyone. Especially those who were going to enroll anyways.
 
 ## Data
 
